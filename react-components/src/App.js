@@ -6,7 +6,7 @@ import HooksCounter from "./components/HooksCounter";
 function App() {
   return (
     <div className="App">
-      <FunctionalGreeting name="John" />
+      {<FunctionalGreeting name="John" />}
       {/* <StatefulGreeting name="Anna" /> */}
       {/* <HooksCounter name="Mike" /> */}
     </div>
