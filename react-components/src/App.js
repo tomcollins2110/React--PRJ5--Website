@@ -1,14 +1,11 @@
+import logo from './logo.svg';
 import './App.css';
-import FunctionalGreeting from "./components/FunctionalGreeting";
-import StatefulGreeting from "./components/StatefulGreeting";
-import HooksCounter from "./components/HooksCounter";
+import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
 
 function App() {
   return (
-    <div className="App">
-      {<FunctionalGreeting name="John" />}
-      {/* <StatefulGreeting name="Anna" /> */}
-      {/* <HooksCounter name="Mike" /> */}
+    <div className='App'>
+      <FunctionalGreetingWithProps greeting="Nice to meet you!"/>
     </div>
   );
 }
